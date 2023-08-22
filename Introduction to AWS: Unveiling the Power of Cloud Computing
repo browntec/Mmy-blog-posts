@@ -1,6 +1,6 @@
-Amazon Web Services
+# 20230106 Amazon Web Services
 
-**Introduction**
+## Introduction
 
 Amazon Web Services, or AWS was first to market with a modern cloud infrastructure service when it launched Amazon Elastic Compute Cloud in August, 2006. Surprisingly, it took several years before a competitor responded. As such, they control a vast amount of market share, at least for now. Rest assured, some very well-heeled competitors like Microsoft, Google, IBM and others are gunning for them.
 
@@ -16,40 +16,40 @@ storage (Amazon Simple Storage Service S3)
 
 relational database engine (Amazon Relational Database Service RDS)
 
-**Amazon EC2**
+## Amazon EC2
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/58aazm2wblt57ntkfsuk.png)
 
 Amazon EC2 is a web service that provides resizable compute capacity in the cloud. Amazon EC2 allows you to launch as many virtual servers as you want, and you pay only for the time they run. Amazon EC2 can be used to build an entire data center in the cloud, or it can be used to run your existing applications more cost-effectively. It's also used to host websites and mobile apps.
 
-**Amazon S3**
+## Amazon S3
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6bdijm6f0qdv1f1nyok6.png)
 
 Amazon S3 is a web service for storing and retrieving any amount of data, at any time, from anywhere on the web. Amazon S3 provides a simple storage infrastructure for use with other AWS services such as EC2 and EBS. With S3 you pay only for what you use and there are no expensive upfront investments in hardware or software required to get started.
 
 Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud. You can start small with one db instance running in an availability zone (AZ) that supports automated backups to Amazon Simple Storage Service (Amazon S3). As your company grows so does your need for more processing power and capacity, which you can incrementally add by simply increasing the number of db instances within an AZ using Auto Scaling Groups (ASGs).
 
-**Amazon RDS**
+## Amazon RDS
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/57fpoykmoc0kmyz8ir7n.png)
 
 Amazon RDS is a managed service that makes it easy to set up, operate, and scale a relational database in the cloud. It gives you access to multiple DB engines and products with a single API call.
 
 Amazon RDS eliminates manual administration of your database—including patching, backup, recovery, replication and versioning—and automates it for you. In addition to using the built-in capabilities of your DB engine (e.g., PostgreSQL), customers can also leverage advanced features such as multi-AZ deployment across availability zones for fault tolerance or high availability with synchronous replication between them.
 
-**Amazon Route 53**
+## Amazon Route 53
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ohn9cb4uxpiqwufxh4ni.png)
 
 Amazon Route 53 is a highly available and scalable DNS service that lets you configure, manage and control the routing of your website's traffic. Route 53 can help you build a secure and reliable website, which is important for businesses that want to reduce their dependence on third parties.
 
 Route 53 can also help you build a highly available and scalable website because it takes care of many of the tasks related to DNS resolution for you. When new instances are launched or stopped, when Amazon EC2 Auto Scaling groups change their capacity level due to changes in load or other factors like seasonal fluctuations in demand, Route 53 automatically updates its records so that clients always have access to the latest information about where services are hosted across AWS regions globally.
 
-**Amazon Cloud Front**
+## Amazon Cloud Front
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v15v9bjd9ft8hqtmt05c.png)
 
 Amazon Cloud Front is a content delivery web service. It integrates with other Amazon Web Services products to give developers and businesses an easy way to distribute content to end users with low latency, high data transfer speeds, and no minimum usage commitments.
 
 Elastic Beanstalk provides an environment to easily deploy and run applications in the cloud. With Elastic Beanstalk you can simply create a single application or a collection of related applications and services that run on all available AWS compute resources including Amazon EC2 instances, Elastic Load Balancing load balancers, Auto Scaling groups of instances or load balancers, Relational Database Service (RDS) databases or ElastiCache clusters.
 
-**AWS Elastic Beanstalk** 
+## AWS Elastic Beanstalk
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zmfzecjqii59svf2pc8j.png)
 
 Elastic Beanstalk is a platform as a service (PaaS) provided by Amazon Web Services (AWS). It enables users to deploy and manage applications in the cloud. Elastic Beanstalk supports deploying, configuring, and scaling web applications and services written using Java, .NET, PHP or Python programming languages.
